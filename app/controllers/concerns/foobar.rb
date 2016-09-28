@@ -1,5 +1,8 @@
 class Foobar
   # ENTER CODE FOR Q2 HERE
-  def initialize(param)
+  def initialize(animal, date, month)
+    @animal = animal
+    @date = date
+    @month = month
   end
 end
