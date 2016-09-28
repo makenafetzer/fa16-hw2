@@ -1,8 +1,12 @@
 class Foobar
   # ENTER CODE FOR Q2 HERE
-  def initialize(animal, date, month)
+  def initialize(name)
+    @name = name
+  end
+
+  def bar(animal, sat)
     @animal = animal
-    @date = date
-    @month = month
+    @sat = sat
+    return "#{@animal}#{@name}#{@sat}"
   end
 end
