@@ -13,10 +13,13 @@ class PagesController < ApplicationController
   end
 
   def age
-    @age = age
+    @age = :age
   end
 
   def person
     @person = Person.new params[:name], params[:age]
+  end
+
+  def me
   end
 end
