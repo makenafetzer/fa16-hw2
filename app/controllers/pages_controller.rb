@@ -13,6 +13,7 @@ class PagesController < ApplicationController
   end
 
   def age
+    @age = age
   end
 
   def person

@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   root 'pages#home'
   post 'stringify', to: 'pages#stringify'
   get 'age', to: 'pages#age'
+  put '/age', to: 'pages#person'
 end

@@ -6,7 +6,7 @@ class Foobar
 
   def bar(animal, sat)
     @animal = animal
-    @sat = sat
+    @sat = :dat
     return "#{@animal}#{@name}#{@sat}"
   end
 end
